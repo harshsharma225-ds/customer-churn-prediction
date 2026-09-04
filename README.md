@@ -20,13 +20,13 @@ and a Streamlit frontend so it can be used interactively.
 - **Dataset:** [Telco Customer Churn (Kaggle)](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 
 ## Project Structure
-  project/
-├── data/ # Raw dataset
-├── notebooks/ # Exploratory data analysis
-├── ml/ # Training script + saved model artifacts
-├── backend/ # FastAPI app serving predictions
-├── frontend/ # Streamlit UI
-└── requirements.txt
+- `data/` — Raw dataset
+- `notebooks/` — Exploratory data analysis
+- `ml/` — Training script + saved model artifacts
+- `backend/` — FastAPI app serving predictions
+- `frontend/` — Streamlit UI
+- `requirements.txt`
+
 ## How It Works
 
 1. **Data preprocessing & training** (`ml/train.py`) — cleans the data, 
